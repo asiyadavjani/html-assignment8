@@ -1,0 +1,97 @@
+*{ margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: sans-serif;
+text-decoration: none;
+  scroll-behavior: smooth;
+
+}
+.main{
+    height:100vh;
+    max-width:100vw;
+    
+}
+.sidebar{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(225, 231, 227);
+    vertical-align: top;
+    display: inline-block;
+    padding: 30px;
+    
+}
+
+.circle {
+  width: 220px;              /* Outer circle size */
+  height: 220px;
+  border-radius: 50%;
+  border: 6px solid rgb(2, 58, 20); /* Border color */
+  overflow: hidden;          /* Crop image to circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* Ensures image fills circle */
+}
+#link-list{
+    text-align:center;
+}
+#link-list a {
+  color: rgb(2, 58, 20);}
+
+
+/* Default (unused) link color — golden */
+a:link i {
+  color: gold;
+}
+
+/* Visited link color — white */
+a:visited i {
+  color: white;
+}
+
+
+
+#hero{
+    width: 79%;
+    height: 100vh;
+      background-color: rgb(2, 58, 20);
+    padding-top: 0px;
+    padding: 3pc;
+    margin: 0%;
+    overflow-y: auto;
+    vertical-align: top;
+       color: white;
+  display: flex;
+  border: top 2px solid white
+  justify-content: center;
+    display: inline-block}
+
+  
+ h1{
+  font-size: 70px;
+  padding: 3pc;
+  font-weight: bold;
+  vertical-align: top;
+  color: rgb(158, 136, 10);
+  margin-bottom: 20px;
+  flex: 1;
+  letter-spacing: 2px;
+overflow-y: auto;
+text-align: center;
+    display: inline-block}
+h3{
+  color:rgb(105, 95, 37) ;
+}
+#award-list{
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.date{
+  text-align: right;
+  color: rgb(158, 136, 10);
